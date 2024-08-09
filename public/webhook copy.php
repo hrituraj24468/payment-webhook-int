@@ -1,7 +1,6 @@
 <?php
 require_once '../vendor/autoload.php';
 
-// Stripe::setApiKey('sk_test_51PkoFIEuszaLU5xo5UZpB33YRfJXb0RzfmJbJ69sAJSg6Uu8eM6oTanw749ZLQ188QNlru10dHAEftXg3nk6DNzv00AQOP3PAu');
 
 $stripe = new \Stripe\StripeClient('secret key ');
 echo "Stripe client instantiated successfully!";
