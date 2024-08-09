@@ -1,0 +1,12 @@
+{
+    "require": {
+        "stripe/stripe-php": "^15.5",
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/skeleton": "^6.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        }
+    }
+}
